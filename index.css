@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+p{
+    color: #ffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+h1{
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 12%;
+    padding: 2%;
+    margin: 2%;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.navbar:hover{
+    top: 2%;
+    right: 2%;
+    width: 10%;
+    padding: 2%;
+    padding-top: 02%;
+    margin: 0%;
+    background-color: transparent;
+    border: #ffff 12px solid;
+    border-radius: 5%;
+    transition: 0.2s;
+}
+.navbarC{
+    position: absolute;
+    width: 90%;
+    top: 0;
+    right: 0%;
+    padding: -2%;
+    margin: 10%;
+    justify-content: space-between;
+    display: none;
+}
+.a1{
+    padding: 6%;
+}
+.a2{
+    padding: 6%;
+}
+.a3{
+    padding: 6%;
+}
+.a4{
+    padding: 6%;
+}
+.navbar:hover .navbarC{
+    display: flex;
+}
+.Frame1{
+    position: absolute;
+    width: 100%;
+    height: max-content;
+}
+.contentF1{
+    width: 80%;
+    height: fit-content;
+    background-color: transparent;
+    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 6px #ffff solid;
+}
+.t01{
+    position: absolute;
+    width: 80%;
+    font-size: 200%;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
