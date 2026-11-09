@@ -1,6 +1,7 @@
 body{
     background-color: black;
-    overflow: hidden;
+    width: auto;
+    height: auto;
 }
 p{
     color: #ffff;
@@ -11,6 +12,17 @@ h1{
     color: #ffff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+.title{
+    width: 30%;
+}
+.title:hover{
+    font-size: 800%;
+    transform: rotate(7deg);
+    transition: 0.5s;
+    text-transform: uppercase;
+    filter: brightness(560%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar{
     position: absolute;
@@ -63,22 +75,142 @@ h1{
     width: 100%;
     height: max-content;
 }
-.contentF1{
-    width: 80%;
-    height: fit-content;
+.contentF1A{
+    position: relative;
+    padding: 0.2%;
     background-color: transparent;
     margin: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
     border: 6px #ffff solid;
 }
-.t01{
+.contentF1A:hover{
+    position: relative;
+    padding: 10%;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    border: 6px #ffff solid;
+}
+.contentF1A .t01{
+    color: transparent;
     position: absolute;
+    top: 0%;
+    margin: 0%;
     width: 80%;
+    height: auto;
     font-size: 200%;
     text-align: left;
     overflow-wrap: break-word;
     word-break: break-all;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contentF1A:hover .t01{
+    transition: 1s;
+    color: #ffff;
+}
 
+.contentF1B{
+    position: relative;
+    padding: 0.2%;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    border: 6px #ffff solid;
+}
+.contentF1B:hover{
+    position: relative;
+    padding: 10%;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    border: 6px #ffff solid;
+}
+.contentF1B .t02{
+    color: transparent;
+    position: absolute;
+    top: 0%;
+    margin: 0%;
+    width: 80%;
+    height: auto;
+    font-size: 200%;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contentF1B:hover .t02{
+    transition: 1s;
+    color: #ffff;
+}
+
+.contentF1C{
+    position: relative;
+    padding: 0.2%;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    border: 6px #ffff solid;
+}
+.contentF1C:hover{
+    position: relative;
+    padding: 10%;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    border: 6px #ffff solid;
+}
+.contentF1C .t03{
+    color: transparent;
+    position: absolute;
+    top: 0%;
+    margin: 0%;
+    width: 80%;
+    height: auto;
+    font-size: 200%;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contentF1C:hover .t03{
+    transition: 1s;
+    color: #ffff;
+}
+
+.contentF1D{
+    position: relative;
+    padding: 0.2%;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    border: 6px #ffff solid;
+}
+.contentF1D:hover{
+    position: relative;
+    padding: 10%;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    border: 6px #ffff solid;
+}
+.contentF1D .t04{
+    color: transparent;
+    position: absolute;
+    top: 0%;
+    margin: 0%;
+    width: 80%;
+    height: auto;
+    font-size: 200%;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contentF1D:hover .t04{
+    transition: 1s;
+    color: #ffff;
 }
